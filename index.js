@@ -8,7 +8,7 @@ const mailer = require('nodemailer');
 
 // Scheduling the email task
 function runJon() {
-    cron.schedule('1 * * * * *', () => sendEmail("Kiruku Munda"));
+    cron.schedule('1 * * * * *', () => sendEmail("Hello This is Scheduled Message No need to reply"));
 }
 runJon()
 
